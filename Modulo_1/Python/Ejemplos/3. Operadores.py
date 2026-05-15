@@ -11,12 +11,12 @@ print(f"Suma: {suma}, Resta: {resta}, Multiplicación: {multiplicacion}, Divisi�
 
 # Comparación = Relacionales: Para comparar valores.
 
-igual = (10 == 10)        # True (son iguales)
-diferente = (10 != 5)     # True (son diferentes)   
-mayor_que = (10 > 5)       # True (10 es mayor que 5)
-menor_que = (10 < 5)       # False (10 no es menor que 5)
-mayor_igual = (10 >= 10)   # True (10 es mayor o igual a 10)
-menor_igual = (10 <= 5)    # False (10 no es menor   o igual a 5)
+igual = (10 == 10)        
+diferente = (10 != 5)       
+mayor_que = (10 > 5)       
+menor_que = (10 < 5)       
+mayor_igual = (10 >= 10)   
+menor_igual = (10 <= 5)    
 print(f"Igual: {igual}, Diferente: {diferente}, Mayor que: {mayor_que}, Menor que: {menor_que}, Mayor o igual: {mayor_igual}, Menor o igual: {menor_igual}")    
 
 # Lógicos: Para combinar condiciones.

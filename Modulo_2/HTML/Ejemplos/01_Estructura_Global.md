@@ -6,10 +6,10 @@ Esta guía cubre las etiquetas fundamentales que conforman la estructura básica
 
 ## 1. `<!DOCTYPE html>`
 
-**Descripción:**  
+**Descripción:+**
 No es estrictamente una etiqueta HTML, sino una instrucción para el navegador. Le indica qué versión de HTML se está utilizando. En HTML5, la declaración es muy simple. Sin ella, los navegadores pueden entrar en "Quirks Mode" (modo de compatibilidad), renderizando la página de forma incorrecta.
 
-**Uso:**  
+**Uso:**
 Debe ser siempre la **primera línea** de tu archivo.
 
 **Ejemplo:**
@@ -25,7 +25,7 @@ Debe ser siempre la **primera línea** de tu archivo.
 
 ## 2. `<html>`
 
-**Descripción:**  
+**Descripción:**
 Es el elemento raíz (root) de un documento HTML. Todos los demás elementos deben ser descendientes de esta etiqueta.
 
 **Atributos Comunes:**
@@ -50,7 +50,7 @@ Es el elemento raíz (root) de un documento HTML. Todos los demás elementos deb
 
 ## 3. `<head>`
 
-**Descripción:**  
+**Descripción:**
 Contiene metadatos (datos sobre los datos) del documento. El contenido de `<head>` **no se muestra** directamente en la página web (a excepción del título en la pestaña). Aquí se definen títulos, enlaces a hojas de estilo, scripts y metadatos.
 
 **Ejemplo:**
@@ -66,14 +66,13 @@ Contiene metadatos (datos sobre los datos) del documento. El contenido de `<head
 
 ## 4. `<title>`
 
-**Descripción:**  
-Define el título del documento. Este texto aparece en:
+**Descripción:**Define el título del documento. Este texto aparece en:
 
 1. La pestaña del navegador.
 2. Los resultados de los motores de búsqueda (Google, Bing).
 3. Cuando se agrega la página a favoritos.
 
-**Importancia:**  
+**Importancia:**
 Es vital para el SEO (Search Engine Optimization).
 
 **Ejemplo:**
@@ -86,7 +85,7 @@ Es vital para el SEO (Search Engine Optimization).
 
 ## 5. `<body>`
 
-**Descripción:**  
+**Descripción:**
 Contiene todo el contenido visible de un documento HTML, como texto, imágenes, enlaces, tablas, listas, etc. Solo puede haber un elemento `<body>` en un documento.
 
 **Ejemplo:**
@@ -102,7 +101,7 @@ Contiene todo el contenido visible de un documento HTML, como texto, imágenes, 
 
 ## 6. `<meta>`
 
-**Descripción:**  
+**Descripción:**
 Define metadatos que no tienen una etiqueta específica (como `<title>` o `<link>`). Es una etiqueta vacía (no tiene cierre).
 
 **Usos más comunes:**
@@ -123,7 +122,7 @@ Define metadatos que no tienen una etiqueta específica (como `<title>` o `<link
 
 ## 7. `<link>`
 
-**Descripción:**  
+**Descripción:**
 Se usa para vincular el documento actual con un recurso externo. El uso más común es vincular hojas de estilo CSS.
 
 **Atributos:**
@@ -142,7 +141,7 @@ Se usa para vincular el documento actual con un recurso externo. El uso más com
 
 ## 8. `<script>`
 
-**Descripción:**  
+**Descripción:**
 Se utiliza para incrustar código ejecutable (normalmente JavaScript) o para referenciar un archivo de script externo.
 
 **Atributos:**
